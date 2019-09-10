@@ -98,9 +98,15 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-
-
+html{
+  box-sizing: border-box;
+}
+*. *:before.*:after{
+  box-sizing: inherit;
+}
+body{
+  background-color:7#27272; 
+}
 
 
 
