@@ -105,11 +105,44 @@ html{
   box-sizing: inherit;
 }
 body{
-  background-color:7#27272; 
+  background-color: #727272;
 }
+div.hero{
+  background-image: url(../img/encabezado.jpg);
+  height: 100vh;
+  background-position: top-center;
+  background-size: cover;
 
 
 
+}
+div.contenido-header{
+  padding-top:40px;
+
+}
+nav.redes-sociales{
+  text-align: center;
+
+
+}
+nav.redes-sociales a{
+  color: #ffffff;
+  font-size: 2em;
+  margin-right: 20px;
+ }
+
+
+nav.redes-sociales a :last child{
+  margin-right: 0;
+
+
+}
+div.informacion-evento{
+  text-align: center;
+  color:#ffffff;
+
+
+}
 
 
 
