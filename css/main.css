@@ -120,6 +120,13 @@ div.contenido-header{
   padding-top:40px;
 
 }
+@media only screen and(min-width:768px){
+  div.contenido-header{
+    padding-top:10px;}
+
+
+}
+
 nav.redes-sociales{
   text-align: center;
 
@@ -129,6 +136,7 @@ nav.redes-sociales a{
   color: #ffffff;
   font-size: 2em;
   margin-right: 20px;
+  text-decoration: none;
  }
 
 
@@ -140,6 +148,38 @@ nav.redes-sociales a :last child{
 div.informacion-evento{
   text-align: center;
   color:#ffffff;
+
+
+}
+@media only screen and(min-width:768px){
+  div.informacion-evento {
+    width: 70%
+    margin: 0 auto;
+    margin-top: 50px;
+
+  }
+}
+div.informacion-evento p{
+  margin: 0;
+  display: inline;
+  padding: 1em;
+  font-size: 20px;
+  text-transform: uppercase;
+
+
+}
+div.informacion-evento p i{
+  color: #fe4918;
+
+
+}
+p.fecha{
+  float: left;
+
+}
+p.ciudad{
+  float: right;
+  text-align: right;
 
 
 }
