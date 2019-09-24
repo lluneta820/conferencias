@@ -108,6 +108,36 @@ body{
   background-color: #727272;
   font-family: 'Open Sans', sans-serif;
 }
+/**Globales**/
+.contenedor{
+  width: 98%;
+  margin: 0 auto;
+
+}
+@media only srceen and (min-width:480px){
+  .contenedor{
+    width: 95%;
+
+  }
+}
+@media only srceen and (min-width:768px){
+    .contenedor{
+      width: 90%;
+
+    }
+}
+@media only srceen and (min-width:992px){
+      .contenedor{
+        width: 90%;
+        max-width: 1100px;
+
+      }
+}
+
+
+
+
+
 h2{
   font-family: 'Oswald', sans-serif;
 
@@ -125,9 +155,10 @@ div.contenido-header{
   padding-top:40px;
 
 }
-@media only screen and(min-width:768px){
+@media only screen and (min-width:768px){
   div.contenido-header{
-    padding-top:10px;}
+    padding-top:10px;
+  }
 
 
 }
@@ -156,7 +187,7 @@ div.informacion-evento{
 
 
 }
-@media only screen and(min-width:768px){
+@media only screen and (min-width:768px){
   div.informacion-evento {
     width: 70%
     margin: 0 auto;
@@ -203,7 +234,7 @@ h1.nombre-sitio{
   text-transform: uppercase;
   font-family: 'PT Sans', sans-serif;
 }
-@media only screen and(min-width:768px{
+@media only screen and (min-width: 768px){
   h1.nombre-sitio{
     font-size: 11.5vw;
     margin: 0;
@@ -211,6 +242,48 @@ h1.nombre-sitio{
 
   }
 }
+/**barra**/
+div.barra{
+    background-color: #353535;
+    padding: 20px 0 ;
+}
+div.logo {
+  width: 80%;
+
+}
+div.logo img{
+    width: 100%;
+
+}
+@media only screen and (min-width:768px){
+  div.logo{
+    width: 33%;
+    float: left;
+    padding-left: 2em;
+
+  }
+
+}
+/**Navegacion principal**/
+nav.navegacion-principal{
+  display:none;
+}
+nav.navegacion-principal a {
+  font-family: 'Oswald', sans-serif;
+  color: #ffffff;
+
+}
+@media only screen and (min-width:768px){
+   nav.navegacion-principal{
+    width:67%;
+    float: right;
+    text-align: right;
+    display: block;
+
+  }
+
+}
+
 
 
 
