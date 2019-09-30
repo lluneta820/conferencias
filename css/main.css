@@ -165,6 +165,7 @@ div.contenido-header{
 
 nav.redes-sociales{
   text-align: center;
+  padding-left: 2em;
 
 
 }
@@ -176,8 +177,9 @@ nav.redes-sociales a{
  }
 
 
-nav.redes-sociales a :last child{
+nav.redes-sociales a:last-child{
   margin-right: 0;
+
 
 
 }
@@ -248,41 +250,107 @@ div.barra{
     padding: 20px 0 ;
 }
 div.logo {
-  width: 80%;
-
+  width: 95%;
+  float: left;
+  margin-left: 1em;
 }
 div.logo img{
-    width: 100%;
+    width: 70%;
 
 }
 @media only screen and (min-width:768px){
-  div.logo{
+  div.logo img{
     width: 33%;
-    float: left;
-    padding-left: 2em;
+
+
 
   }
 
 }
 /**Navegacion principal**/
-nav.navegacion-principal{
-  display:none;
-}
-nav.navegacion-principal a {
+
+
+nav.navegacion.principal a {
   font-family: 'Oswald', sans-serif;
   color: #ffffff;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all .3s ease;
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+nav.navegacion.principal a:hover {
+  background-color: #fe4918;
 
 }
+nav.navegacion.principal a:last-child {
+    border: 2px solid #fe4918;
+    color: #fe4918;
+}
+nav.navegacion.principal a:last-child:hover{
+  color:#ffffff;
+
+
+}
+/*
+@media only screen and (min-width:950px){
+  nav.navegacion.principal a {
+    padding: 10px 20px !important;
+    font-size: 21px !important;
+  }
+}*/
+
 @media only screen and (min-width:768px){
-   nav.navegacion-principal{
+   nav.navegacion.principal{
     width:67%;
     float: right;
     text-align: right;
     display: block;
+    margin-top: 10px;
 
+  }
+  nav.navegacion.principal a {
+    margin-right: 10px;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: all .3s ease;
+    width: auto;
+    display: inline;
+    text-align: center;
+    margin: 0;
   }
 
 }
+/**menu mobil**/
+div.menu-movil{
+  width: 60px;
+  display: block;
+  float: right;
+  text-align: right;
+  margin-top: 12px;
+
+}
+div.menu-movil :hover{
+  cursor: pointer;
+
+}
+@media only screen and (min-width:768px){
+  div.menu-movil{
+    display: none;
+
+  }
+}
+div.menu-movil span{
+  height: 8px;
+  margin-bottom: 6px;
+  background-color: white;
+  display: block;
+}
+
+
 
 
 
