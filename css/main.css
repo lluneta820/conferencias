@@ -475,7 +475,7 @@ nav.menu-programa a {
   /**detalle evento**/
   div.detalle-evento{
     margin-top: 20px;
-    border-bottom: 1px, solid, black;
+    border-bottom: 1px solid black;
     padding: 0px 20px;
   }
   div.detalle-evento:nth-child(2){
