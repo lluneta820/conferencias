@@ -733,8 +733,16 @@ footer.info-testimonial cite{
   padding-top: 20px;
   width: 66.6%;
   float: right;
+  font-weight: bold;
+  font-style: normal;
 }
+footer.info-testimonial cite span{
+  color: #000000;
+  display: block;
+  text-transform: none;
+  margin-top: 5px;
 
+}
    
 
 
